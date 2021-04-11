@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>University Website Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="images/logo.png" /> </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>our courses</h1>
+    </section>
+
+    <!--course-->
+    <section class="course">
+      <h1>courses we offer</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            repellendus veritatis eaque quisquam, excepturi saepe ducimus
+            eveniet nam maxime libero ad doloremque dignissimos dicta in
+            suscipit obcaecati doloribus impedit earum!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            repellendus veritatis eaque quisquam, excepturi saepe ducimus
+            eveniet nam maxime libero ad doloremque dignissimos dicta in
+            suscipit obcaecati doloribus impedit earum!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>post graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            repellendus veritatis eaque quisquam, excepturi saepe ducimus
+            eveniet nam maxime libero ad doloremque dignissimos dicta in
+            suscipit obcaecati doloribus impedit earum!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--facilities-->
+
+    <section class="facilities">
+      <h1>our facilities</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" />
+          <h3>world class library</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            esse illum minima cum repudiandae laudantium minus quo atque debitis
+            nesciunt! Officiis est voluptas numquam beatae cumque minus magni.
+            Sequi, deserunt!
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/basketball.png" />
+          <h3>largest play ground</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            esse illum minima cum repudiandae laudantium minus quo atque debitis
+            nesciunt! Officiis est voluptas numquam beatae cumque minus magni.
+            Sequi, deserunt!
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" />
+          <h3>teaty and helathy food</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            esse illum minima cum repudiandae laudantium minus quo atque debitis
+            nesciunt! Officiis est voluptas numquam beatae cumque minus magni.
+            Sequi, deserunt!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptate
+        porro deleniti dolor<br />
+        voluptates quo, corporis minima, autem ad doloribus magnam itaque
+        ratione fugit impedit?
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instgram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-whatsapp"></i>
+      </div>
+      <p>made with <i class="fa fa-heart-o"></i> by easy tutorials</p>
+    </section>
+
+    <!--javascript for toggle menue-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
